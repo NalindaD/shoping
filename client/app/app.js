@@ -40,8 +40,8 @@ if (token) {
 
 const app = () => {
   useEffect(() => {
-    ReactGa.initialize("UA-185910290-1")
-
+    ReactGa.initialize("UA-185866693-1")
+    
     // report page view
     ReactGa.pageview(window.location.pathname + window.location.search)
   },[])
